@@ -4,8 +4,8 @@ Slides used for presentation are available [here]().
 
 *10x Visium* data for **Melanoma FFPE ** sample downloaded from [here](https://www.10xgenomics.com/datasets/xenium-prime-ffpe-human-skin).
 
-## Seurat Pre-Processing / QC
+## *Seurat* Pre-Processing / QC
 
-## Giotto Pre-Processing / QC
+## *Giotto* Pre-Processing / QC
 
-## Seurat + SingleR
+## *Seurat* + *SingleR*
