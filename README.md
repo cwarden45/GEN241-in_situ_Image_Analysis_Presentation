@@ -6,6 +6,8 @@ Slides used for presentation are available [here]().
 
 ## *Seurat* Pre-Processing / QC
 
+Code executed using `Seurat.R`
+
 ## *Giotto* Pre-Processing / QC
 
 ## *Seurat* + *SingleR*
