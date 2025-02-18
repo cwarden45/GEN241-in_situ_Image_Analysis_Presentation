@@ -19,7 +19,7 @@ Code executed using `Giotto.R`
 
 Code executed using `Seurat.R`
 
-**NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium(), and I specifically needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file (following the *Giotto* instructions).
+**NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium()`, and I specifically needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file (following the *Giotto* instructions).
 
 ## *SingleR* Cell Type Assignments
 
