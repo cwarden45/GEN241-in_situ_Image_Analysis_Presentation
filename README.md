@@ -5,6 +5,8 @@ Slides used for presentation are available [here]().
 *10x Xenium* data for **Melanoma FFPE** sample downloaded from [here](https://www.10xgenomics.com/datasets/xenium-prime-ffpe-human-skin).
  - This download contains fewer total files.  For example, the lung cancer dataset has *cell_feature_matrix.h5*+*cell_feature_matrix.tar.gz*+*cell_feature_matrix.zarr.zip* files, while this dataset **only** has a *cell_feature_matrix.zarr.zip* file.
 
+**NOTE**: In order to update `anndata` and be able to import `zarr` data with `read_zarr()`, I re-installed using `devtools::install_github("dynverse/anndata")` and I then installed/updated *all* dependencies.
+
 ## *Giotto* Pre-Processing / QC
 
 Code executed using `Giotto.R`
