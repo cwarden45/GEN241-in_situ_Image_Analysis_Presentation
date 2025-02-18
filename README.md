@@ -8,9 +8,13 @@ Slides used for presentation are available [here]().
 
 Code executed using `Giotto.R`
 
+**NOTE**: I installed *Giotto Suite* using `devtools::install_github("drieslab/Giotto")`.
+
 ## *Seurat* Pre-Processing / QC (from *Giotto*)
 
 Code executed using `Seurat.R`
+
+**NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium()`.  So, that is why I tested import with another method that could export data to Seurat.
 
 ## *SingleR* Cell Type Assignments (from *Giotto* + "Seurat")
 
