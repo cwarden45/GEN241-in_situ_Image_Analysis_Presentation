@@ -12,12 +12,12 @@ Code executed using `Giotto.R`
 **NOTE**: I installed *Giotto Suite* using `devtools::install_github("drieslab/Giotto")`.
 **NOTE**: As described [here](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file.
 
-## *Seurat* Pre-Processing / QC (from *Giotto*)
+## *Seurat* Pre-Processing / QQ
 
 Code executed using `Seurat.R`
 
-**NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium()`.  So, that is why I tested import with another method that could export data to Seurat.
+**NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium(), and I specifically needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file (following the *Giotto* instructions).
 
-## *SingleR* Cell Type Assignments (from *Giotto* + "Seurat")
+## *SingleR* Cell Type Assignments
 
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
