@@ -29,16 +29,20 @@ Code executed using `Giotto.R`
 	<td align="left">Total Feature Observations</td>
 	<td align="center">12,165,021</td>
 	<td align="center">10,607,572</td>
-	<td align="center"></td>
+	<td align="center">?</td>
     </tr>
 	<tr>
 	<td align="left">Cell Count</td>
-	<td align="center"></td>
-	<td align="center"></td>
-	<td align="center"></td>
+	<td align="center">?</td>
+	<td align="center">?</td>
+	<td align="center">?</td>
     </tr>
 </tbody>
 </table>
+
+**NOTE**: There was a point where the script almost crashed my personal computer (with 16 GB of RAM and 4 CPU).  This was with the *smaller 10x Visium* sample.
+
+So, I uploaded the attempted code, and this gave me additional ideas for other analysis.  However, I did not continue to troubleshoot this particular code.
 
 ## *Seurat* Pre-Processing / QC
 
