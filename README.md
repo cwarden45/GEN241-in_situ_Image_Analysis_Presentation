@@ -48,7 +48,7 @@ Code executed using `Seurat.R`
 
 **NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium()`, and I specifically needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file (following the *Giotto* instructions).
 
-**NOTE**: Based upon the [*Giotto Suite* example](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I also added some code to define **negative control** metrics.
+**NOTE**: Based upon the [*Giotto Suite* example](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I also added some code to define **negative control** metrics.  However, there were **not** among the features defined with `LoadXenium()`, which makes all of the values equal to 0.
 
 **Lung Cancer FFPE**:
 
