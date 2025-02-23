@@ -15,6 +15,28 @@ Code executed using `Giotto.R`
 
 **NOTE**: As described [here](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file.
 
+  <tbody>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Initial Import</th>
+      <th align="center">QV > 20</th>
+      <th align="center">Feature Count > 0</th>
+    </tr>
+    <tr>
+	<td align="left">Total Feature Observations</td>
+	<td align="center">12,165,021</td>
+	<td align="center"></td>
+	<td align="center"></td>
+    </tr>
+	<tr>
+	<td align="left">Cell Count</td>
+	<td align="center"></td>
+	<td align="center"></td>
+	<td align="center"></td>
+    </tr>
+</tbody>
+</table>
+
 ## *Seurat* Pre-Processing / QC
 
 Code executed using `Seurat.R`
