@@ -15,7 +15,8 @@ Code executed using `Giotto.R`
 
 **NOTE**: As described [here](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file.
 
-  <tbody>
+<table>
+<tbody>
     <tr>
       <th align="center"></th>
       <th align="center">Initial Import</th>
