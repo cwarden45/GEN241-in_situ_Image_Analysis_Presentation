@@ -21,6 +21,23 @@ Code executed using `Seurat.R`
 
 **NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium()`, and I specifically needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file (following the *Giotto* instructions).
 
+**Lung Cancer FFPE**:
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Initial Import</th>
+      <th align="center">Feature Count > 0</th>
+    </tr>
+    <tr>
+	<td align="left">Cell Count</td>
+	<td align="center"></td>
+	<td align="center"></td>
+    </tr>
+</tbody>
+</table>
+
 ## *SingleR* Cell Type Assignments
 
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
