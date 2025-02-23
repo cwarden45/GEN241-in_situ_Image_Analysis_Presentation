@@ -25,7 +25,7 @@ Code executed using `Giotto.R`
     <tr>
 	<td align="left">Total Feature Observations</td>
 	<td align="center">12,165,021</td>
-	<td align="center"></td>
+	<td align="center">10,607,572</td>
 	<td align="center"></td>
     </tr>
 	<tr>
