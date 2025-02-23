@@ -19,3 +19,13 @@ ggsave(paste(sampleID,"-Seurat_import_nCount_gt_0-Feature_Violin.png",sep=""))
 
 ImageDimPlot(xenium.obj, fov = "fov", molecules = c("CDH16", "CENPF", "EGFR", "MKI67"), nmols = 20000)
 ggsave(paste(sampleID,"-Seurat_import_nCount_gt_0-ImagePlot_QC.png",sep=""))
+
+#add based upon Giotto tutorial : https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html
+xenium.obj[["NegControlProbe"]] = PercentageFeatureSet(xenium.obj, pattern = "^NegControlProbe")
+xenium.obj[["NegControlCodeword"]] = PercentageFeatureSet(xenium.obj, pattern = "^NegControlCodeword")
+xenium.obj[["UnassignedCodeword"]] = PercentageFeatureSet(xenium.obj, pattern = "^UnassignedCodeword")
+
+VlnPlot(xenium.obj, features = c("NegControlProbe", "NegControlCodeword", "UnassignedCodeword"),
+			ncol = 3, pt.size = 0)
+ggsave(paste(sampleID,"-Seurat_import_nCount_gt_0-NegativeControl_Violin.png",sep=""),
+		height=5, width=9)
