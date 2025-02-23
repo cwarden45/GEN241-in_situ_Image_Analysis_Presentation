@@ -15,7 +15,7 @@ Code executed using `Giotto.R`
 
 **NOTE**: As described [here](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file.
 
-**NOTE**: Based upon the *Giotto* example, I also added some code to define negative control metrics.
+**NOTE**: Based upon the [*Giotto Suite* example](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I also added some code to define **negative control** metrics.
 
 <table>
 <tbody>
