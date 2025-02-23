@@ -71,6 +71,11 @@ Code executed using `Seurat.R`
 
 <img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-Seurat_import_nCount_gt_0-ImagePlot_QC.png" width="500" height="500">
 
+**Melanoma FFPE**:
+
+Attempted to execute code within `Seurat-zarr.R`
+
+
 ## *SingleR* Cell Type Assignments
 
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
