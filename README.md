@@ -15,8 +15,6 @@ Code executed using `Giotto.R`
 
 **NOTE**: As described [here](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file.
 
-**NOTE**: Based upon the [*Giotto Suite* example](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I also added some code to define **negative control** metrics.
-
 <table>
 <tbody>
     <tr>
@@ -49,6 +47,8 @@ So, I uploaded the attempted code, and this gave me additional ideas for other a
 Code executed using `Seurat.R`
 
 **NOTE**: I had some difficulty with Seurat recognizing the downloaded files using `LoadXenium()`, and I specifically needed to **de-compress** the content of the `cell_feature_matrix.tar.gz` file (following the *Giotto* instructions).
+
+**NOTE**: Based upon the [*Giotto Suite* example](https://giottosuite.readthedocs.io/en/latest/subsections/datasets/xenium_breast_cancer.html), I also added some code to define **negative control** metrics.
 
 **Lung Cancer FFPE**:
 
