@@ -78,4 +78,8 @@ Attempted to execute code within `Seurat-zarr.R`
 
 ## *SingleR* Cell Type Assignments
 
+**Lung Cancer FFPE**:
+
+Code executed using `SingleR-from_Seurat.R`
+
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
