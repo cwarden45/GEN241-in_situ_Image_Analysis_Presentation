@@ -38,7 +38,7 @@ Code executed using `Seurat.R`
 </tbody>
 </table>
 
-![](LungCancer_FFPE-Seurat_import_nCount_gt_0-Feature_Violin.png | width=100)
+<img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-Seurat_import_nCount_gt_0-Feature_Violin.png" width="100" height="100">
 
 ![](LungCancer_FFPE-Seurat_import_nCount_gt_0-ImagePlot_QC.png)
 
