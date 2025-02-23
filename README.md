@@ -32,7 +32,7 @@ Code executed using `Seurat.R`
     </tr>
     <tr>
 	<td align="left">Cell Count</td>
-	<td align="center"></td>
+	<td align="center">162,254</td>
 	<td align="center"></td>
     </tr>
 </tbody>
