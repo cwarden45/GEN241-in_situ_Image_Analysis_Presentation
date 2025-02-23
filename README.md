@@ -38,6 +38,10 @@ Code executed using `Seurat.R`
 </tbody>
 </table>
 
+![](LungCancer_FFPE-Seurat_import_nCount_gt_0-ImagePlot_QC.png)
+
+![](LungCancer_FFPE-Seurat_import_nCount_gt_0-Feature_Violin.png)
+
 ## *SingleR* Cell Type Assignments
 
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
