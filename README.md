@@ -91,9 +91,9 @@ Code executed using `SingleR-from_Seurat.R`
       <th align="center">Blueprint ENCODE</th>
     </tr>
     <tr>
-	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="350" height="200">
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="350" height="350">
 </td>
-	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="350" height="200">
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="350" height="350">
 </td>
 </tbody>
 </table>
