@@ -82,4 +82,13 @@ Attempted to execute code within `Seurat-zarr.R`
 
 Code executed using `SingleR-from_Seurat.R`
 
+*Keep MinCounts > 0, Apply Seurat Normalization*:
+
+*Keep MinCounts > 0, **No** Seurat Normalization*:
+
+*Apply MinCounts > 20, **No** Seurat Normalization*:
+
+
+**Other**:
+
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
