@@ -1,9 +1,9 @@
 #setwd("D:\\10x_Xenium_Data\\GEN241-in_situ_Image_Analysis_Presentation")
 
-sampleID="LungCancer_FFPE"
-min_counts = 0
-preprocess=TRUE
-XeniumRanger_outs = "../Xenium_V1_humanLung_Cancer_FFPE_outs"
+#sampleID="LungCancer_FFPE"
+#min_counts = 0
+#preprocess=TRUE
+#XeniumRanger_outs = "../Xenium_V1_humanLung_Cancer_FFPE_outs"
 
 #sampleID="LungCancer_FFPE"
 #min_counts = 0
@@ -14,6 +14,11 @@ XeniumRanger_outs = "../Xenium_V1_humanLung_Cancer_FFPE_outs"
 #min_counts = 20
 #preprocess=FALSE
 #XeniumRanger_outs = "../Xenium_V1_humanLung_Cancer_FFPE_outs"
+
+sampleID="LungCancer_FFPE"
+min_counts = 40
+preprocess=FALSE
+XeniumRanger_outs = "../Xenium_V1_humanLung_Cancer_FFPE_outs"
 
 library(Seurat)
 library(ggplot2)
