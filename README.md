@@ -67,9 +67,9 @@ Code executed using `Seurat.R`
 </tbody>
 </table>
 
-<img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-Seurat_import_nCount_gt_0-Feature_Violin.png" width="200" height="150">
+<img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-Seurat_import_nCount_gt_0-Feature_Violin.png" width="500" height="500">
 
-<img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-Seurat_import_nCount_gt_0-ImagePlot_QC.png" width="200" height="150">
+<img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-Seurat_import_nCount_gt_0-ImagePlot_QC.png" width="500" height="500">
 
 **Melanoma FFPE**:
 
@@ -91,9 +91,9 @@ Code executed using `SingleR-from_Seurat.R`
       <th align="center">Blueprint ENCODE</th>
     </tr>
     <tr>
-	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="500" height="500">
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="250" height="150">
 </td>
-	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="500" height="500">
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/" width="250" height="150">
 </td>
 </tbody>
 </table>
