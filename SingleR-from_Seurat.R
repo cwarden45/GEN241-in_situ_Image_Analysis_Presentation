@@ -66,12 +66,11 @@ write.csv(data.frame(cell=rownames(SingleR_result.blueprint_ENCODE), SingleR_res
 	
 #HPCA
 xenium.obj$predicted.celltype.HPCA = SingleR_result.HPCA$pruned.labels
-ImageDimPlot(xenium.obj, group.by = "predicted.celltype.HPCA ", cols = "polychrome", nmols = 20000)
 
 xenium.obj = BuildNicheAssay(object = xenium.obj, fov = "fov", group.by = "predicted.celltype.HPCA",
 								niches.k = 5, neighbors.k = 30, cluster.name = "niches.HPCA")
 celltype.plot = ImageDimPlot(xenium.obj, group.by = "predicted.celltype.HPCA", size = 1.5, cols = "polychrome",
-    dark.background = F) + ggtitle("Cell type")
+    dark.background = F, nmols = 20000)) + ggtitle("Cell type")
 niche.plot = ImageDimPlot(xenium.obj, group.by = "niches.HPCA", size = 1.5, dark.background = F) + ggtitle("Niches") +
     scale_fill_manual(values = c("#442288", "#6CA2EA", "#B5D33D", "#FED23F", "#EB7D5B"))
 celltype.plot | niche.plot
@@ -79,13 +78,12 @@ ggsave(paste(output_name,"--Seurat_import-SingleR_HPCA-ImagePlot.png",sep=""))
 
 #blueprint_ENCODE
 xenium.obj$predicted.celltype.blueprint_ENCODE = SingleR_result.blueprint_ENCODE$pruned.labels
-ImageDimPlot(xenium.obj, group.by = "predicted.celltype.blueprint_ENCODE ", cols = "polychrome", nmols = 20000)
 
 xenium.obj = BuildNicheAssay(object = xenium.obj, fov = "fov", group.by = "predicted.celltype.blueprint_ENCODE",
 								niches.k = 5, neighbors.k = 30, cluster.name = "niches.blueprint_ENCODE")
 								
 celltype.plot = ImageDimPlot(xenium.obj, group.by = "predicted.celltype.blueprint_ENCODE", size = 1.5, cols = "polychrome",
-    dark.background = F) + ggtitle("Cell type")
+    dark.background = F, nmols = 20000)) + ggtitle("Cell type")
 niche.plot = ImageDimPlot(xenium.obj, group.by = "niches.blueprint_ENCODE", size = 1.5, dark.background = F) + ggtitle("Niches") +
     scale_fill_manual(values = c("#442288", "#6CA2EA", "#B5D33D", "#FED23F", "#EB7D5B"))
 celltype.plot | niche.plot
