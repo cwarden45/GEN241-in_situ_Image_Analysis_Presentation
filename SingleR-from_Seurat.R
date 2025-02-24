@@ -20,6 +20,11 @@ min_counts = 40
 preprocess=FALSE
 XeniumRanger_outs = "../Xenium_V1_humanLung_Cancer_FFPE_outs"
 
+#sampleID="LungCancer_FFPE"
+#min_counts = 80
+#preprocess=FALSE
+#XeniumRanger_outs = "../Xenium_V1_humanLung_Cancer_FFPE_outs"
+
 library(Seurat)
 library(ggplot2)
 library(SingleR)
