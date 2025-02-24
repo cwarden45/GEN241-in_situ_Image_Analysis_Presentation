@@ -66,12 +66,12 @@ Code executed using `Seurat.R`
 	<td align="center">162,254</td>
 	<td align="center">161,894</td>
 	<td align="center">135,782</td>
-	<td align="center">,</td>
+	<td align="center"> 91,459</td>
     </tr>
 </tbody>
 </table>
 
-**NOTE**: *Feature Count > 20* is not defined until after running `SingleR-from_Seurat.R` (with *min_counts = 0*).
+**NOTE**: *Feature Count > 20* (and *Feature Count > 40* ) are not defined until after running `SingleR-from_Seurat.R` (with *min_counts = 20* or *min_counts = 40*).
 
 <img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-Seurat_import_nCount_gt_0-Feature_Violin.png" width="500" height="500">
 
