@@ -150,6 +150,22 @@ Code executed using `SingleR-from_Seurat.R`
 </tbody>
 </table>
 
+*Apply **MinCounts > 80**, **No** Seurat Normalization*:
+
+<table>
+<tbody>
+    <tr>
+      <th align="center">HPCA</th>
+      <th align="center">Blueprint/ENCODE</th>
+    </tr>
+    <tr>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount80-NoNorm--Seurat_import-SingleR_HPCA-ImagePlot.png" width="350" height="350">
+</td>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount80-NoNorm--Seurat_import-SingleR_blueprint_ENCODE-ImagePlot.png" width="350" height="350">
+</td>
+</tbody>
+</table>
+
 **Other**:
 
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
