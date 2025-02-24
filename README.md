@@ -114,7 +114,7 @@ Code executed using `SingleR-from_Seurat.R`
 </tbody>
 </table>
 
-*Apply MinCounts > 20, **No** Seurat Normalization*:
+*Apply **MinCounts > 20**, **No** Seurat Normalization*:
 
 <table>
 <tbody>
