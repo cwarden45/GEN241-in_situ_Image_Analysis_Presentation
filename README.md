@@ -100,8 +100,35 @@ Code executed using `SingleR-from_Seurat.R`
 
 *Keep MinCounts > 0, **No** Seurat Normalization*:
 
+<table>
+<tbody>
+    <tr>
+      <th align="center">HPCA</th>
+      <th align="center">Blueprint ENCODE</th>
+    </tr>
+    <tr>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount0-NoNorm--Seurat_import-SingleR_HPCA-ImagePlot.png" width="350" height="350">
+</td>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount0-NoNorm--Seurat_import-SingleR_blueprint_ENCODE-ImagePlot.png" width="350" height="350">
+</td>
+</tbody>
+</table>
+
 *Apply MinCounts > 20, **No** Seurat Normalization*:
 
+<table>
+<tbody>
+    <tr>
+      <th align="center">HPCA</th>
+      <th align="center">Blueprint ENCODE</th>
+    </tr>
+    <tr>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount20-NoNorm--Seurat_import-SingleR_HPCA-ImagePlot.png" width="350" height="350">
+</td>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount20-NoNorm--Seurat_import-SingleR_blueprint_ENCODE-ImagePlot.png" width="350" height="350">
+</td>
+</tbody>
+</table>
 
 **Other**:
 
