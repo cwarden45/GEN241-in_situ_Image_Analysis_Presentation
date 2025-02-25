@@ -7,6 +7,8 @@ Slides used for presentation are available [here]() **(when ready/complete)**.  
 
 **NOTE**: In order to update `anndata` and be able to import `zarr` data with `read_zarr()`, I re-installed using `devtools::install_github("dynverse/anndata")` and I then installed/updated *all* dependencies.
 
+**NOTE**: I am very thankful that **10x Support** indicated that their [current recommendation](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/advanced/example-code#zarr) to reading the .zarr files (converting to .csv files within *Python*, which can then be imported into *R*).
+
 ## *Giotto* Pre-Processing / QC
 
 Code executed using `Giotto.R`
