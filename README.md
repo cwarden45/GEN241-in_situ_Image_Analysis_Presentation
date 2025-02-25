@@ -1,4 +1,4 @@
-Slides used for presentation are available [here]().
+Slides used for presentation are available [here]() **(when ready/complete)**.  There was also an [earlier version](https://drive.google.com/file/d/1T1yQjhTHX_aVShp4HDq8AGQXbRbA1hI5/view?usp=sharing) of the slides passed along to some selected individuals.
 
 *10x Xenium* data for **Lung Cancer FFPE** sample downloaded from [here](https://www.10xgenomics.com/datasets/preview-data-ffpe-human-lung-cancer-with-xenium-multimodal-cell-segmentation-1-standard).
 
