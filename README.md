@@ -171,3 +171,7 @@ Code executed using `SingleR-from_Seurat.R`
 **Other**:
 
 Additional testing/application of *SingleR* to *Xenium* data can be found in [Cheng_et_al_2025](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06044-0).
+
+## General *Seurat* Cell Clustering
+
+Code executed using `Seurat-Normalization_and_Clustering.R`
