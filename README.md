@@ -175,3 +175,20 @@ Additional testing/application of *SingleR* to *Xenium* data can be found in [Ch
 ## General *Seurat* Cell Clustering
 
 Code executed using `Seurat-Normalization_and_Clustering.R`
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Feature Count > 0</th>
+      <th align="center">Feature Count > 20</th>
+      <th align="center">Feature Count > 40</th>
+      <th align="center">Feature Count > 80</th>
+    </tr>
+    <tr>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount0-SeuratNorm-ImagePlot_SeuratClusters.png" width="250" height="250"></td>
+	<td align="center"></td>
+	<td align="center"></td>
+	<td align="center"></td>
+    </tr>
+</tbody>
+</table>
