@@ -186,9 +186,9 @@ Code executed using `Seurat-Normalization_and_Clustering.R`
     </tr>
     <tr>
 	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount0-SeuratNorm-ImagePlot_SeuratClusters.png" width="250" height="250"></td>
-	<td align="center"></td>
-	<td align="center"></td>
-	<td align="center"></td>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount20-SeuratNorm-ImagePlot_SeuratClusters.png" width="250" height="250"></td>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount40-SeuratNorm-ImagePlot_SeuratClusters.png" width="250" height="250"></td>
+	<td align="center"><img src="https://github.com/cwarden45/GEN241-in_situ_Image_Analysis_Presentation/blob/main/LungCancer_FFPE-mincount80-SeuratNorm-ImagePlot_SeuratClusters.png" width="250" height="250"></td>
     </tr>
 </tbody>
 </table>
