@@ -196,3 +196,5 @@ Code executed using `Seurat-Normalization_and_Clustering.R`
     </tr>
 </tbody>
 </table>
+
+[Hartman and Satija 2024](https://elifesciences.org/reviewed-preprints/96949) describe running *Baysor* with `--min-molecules-per-cell=100`.  For those that are interested, *10x* also provides some information about running [*Baysor*](https://kharchenkolab.github.io/Baysor/dev/) on *Xenium* data [here](https://www.10xgenomics.com/analysis-guides/using-baysor-to-perform-xenium-cell-segmentation).  *Either way, it is possible that some samples may benefit from a higher threshold of minimum counts per cell (such as **100 or higher**).*
