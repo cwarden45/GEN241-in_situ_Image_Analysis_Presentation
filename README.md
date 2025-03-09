@@ -1,4 +1,4 @@
-**Slides used for presentation are available [here](https://drive.google.com/file/d/1P6-2KYSn5zstn1F_6lHSyHeTjJZ1Kx8d/view?usp=sharing)**.  There was also an [earlier "v2" version](https://drive.google.com/file/d/1T1yQjhTHX_aVShp4HDq8AGQXbRbA1hI5/view?usp=sharing) of the slides passed along to some selected individuals.
+**Slides used for presentation are available [here](https://drive.google.com/file/d/1P6-2KYSn5zstn1F_6lHSyHeTjJZ1Kx8d/view?usp=sharing)**.  There is also an [earlier "v2" version](https://drive.google.com/file/d/1T1yQjhTHX_aVShp4HDq8AGQXbRbA1hI5/view?usp=sharing) of the slides that was passed along to some selected individuals.
 
 *10x Xenium* data for **Lung Cancer FFPE** sample downloaded from [here](https://www.10xgenomics.com/datasets/preview-data-ffpe-human-lung-cancer-with-xenium-multimodal-cell-segmentation-1-standard).
 
