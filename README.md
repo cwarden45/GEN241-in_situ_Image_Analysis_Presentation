@@ -10,6 +10,7 @@
 **NOTE**: I am very thankful that **10x Support** indicated that their [current recommendation](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/advanced/example-code#zarr) to reading the *.zarr* files (using *Python* to convert to a different file format that can be imported into *R*).
  - I performed some amount of testing with the example code in `python-zarr.py`.  However, I believe that I need some additional steps to export something that can be imported into R.
  - I also started to test *squidpy* / *SpatialData* functions from [this tutorial](https://squidpy.readthedocs.io/en/stable/notebooks/tutorials/tutorial_xenium.html) in `squidpy-zarr.py`.  However, I encountered some an messages when I tried to use the .zarr files that were available for the Melanoma FFPE sample (versus demo data for those packages, for example).
+ - If it might help, then there are instructions for working with data interactively with *Napari-SpatialData* [here](https://spatialdata.scverse.org/projects/napari/en/latest/notebooks/spatialdata.html).
 
 ## *Giotto* Pre-Processing / QC
 
