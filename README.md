@@ -199,3 +199,9 @@ Code executed using `Seurat-Normalization_and_Clustering.R`
 </table>
 
 [Hartman and Satija 2024](https://elifesciences.org/reviewed-preprints/96949) describe running [*Baysor*](https://kharchenkolab.github.io/Baysor/dev/) with `--min-molecules-per-cell=100`.  For those that are interested, *10x* also provides some information about running *Baysor* on *Xenium* data [here](https://www.10xgenomics.com/analysis-guides/using-baysor-to-perform-xenium-cell-segmentation).  *Either way, it is possible that some samples may benefit from a higher threshold of minimum counts per cell (such as **100 or higher**).*
+
+## Post-Presentation Notes
+
+After the presentation, some details of the [*Visium HD*](https://www.10xgenomics.com/products/visium-hd-spatial-gene-expression) technology ([Oliveira et al. 2024](https://www.biorxiv.org/content/10.1101/2024.06.04.597233v1)) were brought to my attention.  I am very thankful for this discussion, and labs planning spatial transcriptomic projects should at least be aware of this option.
+
+You can see some *YouTube* videos related to analysis/re-analysis [here](https://www.youtube.com/watch?v=q3w2UElzv6M) and [here](https://www.youtube.com/watch?v=zKZ03mA3aig).  *Bin2cell* ([Polański et al. 2024](https://academic.oup.com/bioinformatics/article/40/9/btae546/7754061)) is also an example of an analysis method available for this platform.
